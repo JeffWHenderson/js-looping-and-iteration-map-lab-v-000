@@ -13,6 +13,6 @@ function nameToAttributes(drivers) {
 
 function attributesToPhrase(array) {
   array.map(function(i){
-    "i.name is from i.hometown"
+    `${i.name} is from ${i.hometown}`
   })
 }
