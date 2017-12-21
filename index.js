@@ -10,3 +10,9 @@ function nameToAttributes(drivers) {
     return {firstName: `${i.split(' ')[0]}`, lastName: `${i.split(' ')[1]}`}
   })
 }
+
+function attributesToPhrase(array) {
+  array.map(function(i){
+    "i.name is from i.hometown"
+  })
+}
