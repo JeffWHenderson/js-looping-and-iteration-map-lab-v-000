@@ -7,6 +7,6 @@ function lowerCaseDrivers(drivers) {
 
 function nameToAttributes(drivers) {
   return drivers.map(function(i){
-    return i
+    return `i.firstName i.lastName`
   })
 }
